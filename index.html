@@ -6,10 +6,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Y.A.N.A Coffee & Tea</title>
 	<link href="/css/bootstrap.css" rel="stylesheet">
-
 </head>
 
 <body>
+
+	<nav class="navbar bg-body-tertiary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="./assets/Icons/Inverted Logo Pure.png" alt="Logo" width="30" height="24"
+					class="d-inline-block align-text-center">
+				Y.A.N.A
+			</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+					<a class="nav-link" href="#">Features</a>
+					<a class="nav-link" href="#">Pricing</a>
+					<a class="nav-link disabled" aria-disabled="true">Disabled</a>
+				</div>
+			</div>
+	</nav>
 
 	<div class="container">
 		non sticky header with logo on right and maybe /// menu on left
@@ -19,35 +40,92 @@
 		small height
 	</div>
 
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+				aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner h-25">
+			<div class="carousel-item active">
+				<img src="./assets/Images/Crepe.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>First slide label</h5>
+					<p>Some representative placeholder content for the first slide.</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./assets/Images/Intro.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<p>Some representative placeholder content for the second slide.</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="./assets/Images/Outside.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Third slide label</h5>
+					<p>Some representative placeholder content for the third slide.</p>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
 	<div class="container">
 		Big picture slideshow that takes up the screen
 		Will have animated graphics go along with slideshow
 
 		Full viewing window
+		Have a long images that take up the full view screen window
 	</div>
 
 	<div class="container">
-		Where to find us
+		<h1 class="display-5">Where to find us</h1>
+		<img src="./assets/Images/Outside.jpg" class="img-fluid" alt="View of outside of building">
 
-		No requirements on height
+		Preview of google maps here
+
+		Visit us! (Linked)
+
 	</div>
 
 	<div class="container">
-		Popular items
+		<h1 class="display-5">Popular items</h1>
 
 		3-4 items in row or grid depending on device size
 
 		order online || view menu at bottom
 
+		<a href="#">Order Online</a> <a href="#">View Menu</a>
+
 		no requirements on height
 	</div>
 
 	<div class="container">
-		more about the shop here
+		<h1 class="display-5">About us</h1>
 	</div>
 
 	<div class="container">
-		Footer with socials and @2024
+		<a href="https://www.instagram.com/yanacoffeeslc/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+			target="_blank" class="noUnderline"><img src="assets/Icons/instagram.png" alt="Instagram"></a>
+		<a href="https://www.facebook.com/profile.php?id=61552690393487" target="_blank" class="noUnderline"><img
+				src="assets/Icons/facebook.png" alt="facebook.png"></a>
+		<a href="https://www.tiktok.com/@yanacoffeeslc" target="_blank" class="noUnderline"><img
+				src="assets/Icons/tiktok.png" alt="TikTok"></a>
+
 	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
