@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Red+Hat+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Red+Hat+Display&display=swap");
 
-$primary: #ffaffa;
-$secondary: #aafaaf;
+$body-bg: #feeddb;
+$primary: #d0501f;
+$secondary: #fe6125;
+$tertiary: #eae2d4;
 
 @import "node_modules/bootstrap/scss/bootstrap";
