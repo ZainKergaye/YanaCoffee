@@ -2,7 +2,27 @@
 
 $body-bg: #feeddb;
 $primary: #d0501f;
-$secondary: #fe6125;
-$tertiary: #eae2d4;
+$secondary: #eae2d4;
+//$tertiary: #fe6125;
+$body-tertiary-bg: #fe6125;
+
+.parallax {
+  /* Add desired background image */
+  background-image: url("../assets/Images/HomeBackground.jpg");
+  /* Set background attachment to fixed for the parallax effect */
+  background-attachment: fixed;
+  /* Adjust other styling as needed */
+  //height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-inner {
+  /* Add styling for inner content */
+  padding: 100px;
+  text-align: center;
+  color: #ffffff;
+}
 
 @import "node_modules/bootstrap/scss/bootstrap";
