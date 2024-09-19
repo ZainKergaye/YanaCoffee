@@ -7,22 +7,32 @@ $secondary: #eae2d4;
 $body-tertiary-bg: #fe6125;
 
 .parallax {
-  /* Add desired background image */
-  background-image: url("../assets/Images/HomeBackground.jpg");
-  /* Set background attachment to fixed for the parallax effect */
-  background-attachment: fixed;
-  /* Adjust other styling as needed */
-  //height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* Add desired background image */
+    background-image: url("../assets/Images/HomeBackground.jpg");
+    /* Set background attachment to fixed for the parallax effect */
+    background-attachment: fixed;
+    /* Adjust other styling as needed */
+    //height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax-inner {
-  /* Add styling for inner content */
-  padding: 100px;
-  text-align: center;
-  color: #ffffff;
+    /* Add styling for inner content */
+    padding: 100px;
+    text-align: center;
+    color: #ffffff;
 }
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+#carousel-main .carousel-item {
+    clip-path: polygon(0vw 0vh, 0vw 100vh, 100vw 100vh, 100vw 0vh);
+
+    img {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}
