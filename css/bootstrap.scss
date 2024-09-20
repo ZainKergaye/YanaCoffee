@@ -36,3 +36,10 @@ $body-tertiary-bg: #fe6125;
         transform: translate(-50%, 0);
     }
 }
+
+#carousel-secondary {
+    transition:
+        transform 2s ease,
+        // Not working
+        opacity 0.5s ease-out;
+}
