@@ -25,6 +25,23 @@ $body-tertiary-bg: #fe6125;
     color: #ffffff;
 }
 
+#carousel-secondary {
+    $carousel-transition-duration: 0.6s;
+    $carousel-transition: transform $carousel-transition-duration ease-in-out;
+    max-width: 400px;
+    max-height: 400px;
+
+    .carousel-item {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    .carousel-item.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 @import "node_modules/bootstrap/scss/bootstrap";
 
 #carousel-main .carousel-item {
@@ -35,11 +52,4 @@ $body-tertiary-bg: #fe6125;
         left: 50%;
         transform: translate(-50%, 0);
     }
-}
-
-#carousel-secondary {
-    transition:
-        transform 2s ease,
-        // Not working
-        opacity 0.5s ease-out;
 }

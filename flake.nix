@@ -15,6 +15,7 @@
 		nodejs_22 # Don't use this, use it the nix way 
 		nodePackages_latest.live-server
 		nodePackages_latest.sass
+		gimp
 	  ];
 
 	  shellHook = ''
