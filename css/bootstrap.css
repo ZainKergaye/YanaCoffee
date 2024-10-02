@@ -11885,4 +11885,8 @@ textarea.form-control-lg {
   transform: translate(-50%, 0);
 }
 
+.popular-items-image-holder #img {
+  max-width: 90vw;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
